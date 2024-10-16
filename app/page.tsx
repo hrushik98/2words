@@ -42,7 +42,7 @@ export default function Component() {
       });
 
       const data = await response.json();
-      setMessage(data.message || "Success!");
+      setMessage("");
 
       setShowConfetti(true);
       setShowPopup(true);
