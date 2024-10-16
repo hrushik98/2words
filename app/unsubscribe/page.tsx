@@ -51,7 +51,7 @@ export default function Unsubscribe() {
         </div>
 
         <div className="bg-white rounded-xl p-8 w-full space-y-6 shadow-lg border border-gray-200">
-          <h1 className="text-2xl font-bold text-center">We're sad to see you go!</h1>
+          <h1 className="text-2xl font-bold text-center">We're sad to see you go! 😔</h1>
           <p className="text-center text-gray-600">
             Enter your email address below to unsubscribe from 2words.
           </p>
