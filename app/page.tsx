@@ -33,7 +33,7 @@ export default function Component() {
 
     setLoading(true);
     try {
-      const response = await fetch('https://13.127.1.102:8502/receive-email', {
+      const response = await fetch('https://2words-backend.vercel.app/receive-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
