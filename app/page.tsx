@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useRef } from 'react'
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { motion, useInView, AnimatePresence } from "framer-motion"
@@ -51,7 +51,7 @@ export default function Component() {
                 className="bg-white placeholder-gray-400 text-black border-gray-300"
               />
               <Button type="submit" className="w-full bg-black hover:bg-gray-800 text-white font-bold py-2 px-4 rounded-full transition-all duration-200 transform hover:scale-105">
-                Let's Go! 🚀
+                Let&apos;s Go! 🚀
               </Button>
             </form>
           </div>
@@ -62,7 +62,7 @@ export default function Component() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 0.5 }}
           >
-            <p>Scroll down for today's words</p>
+            <p>Scroll down for today&apos;s words</p>
             <ChevronDown className="mx-auto mt-2 animate-bounce" />
           </motion.div>
         </div>
@@ -82,14 +82,14 @@ export default function Component() {
               <h3 className="text-xl font-bold">Ephemeral</h3>
               <p className="text-sm">Lasting for a very short time.</p>
               <p className="text-sm italic mt-2">
-                "The viral TikTok trend was ephemeral, disappearing as quickly as it had emerged."
+                &quot;The viral TikTok trend was ephemeral, disappearing as quickly as it had emerged.&quot;
               </p>
             </div>
             <div className="bg-gray-100 p-4 rounded-lg">
               <h3 className="text-xl font-bold">Serendipity</h3>
               <p className="text-sm">The occurrence of events by chance in a happy or beneficial way.</p>
               <p className="text-sm italic mt-2">
-                "It was pure serendipity that we both swiped right and found our perfect match!"
+                &quot;It was pure serendipity that we both swiped right and found our perfect match!&quot;
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function Component() {
               >
                 <X size={24} />
               </button>
-              <h2 className="text-2xl font-bold mb-4 text-center">You're Awesome! 🎉</h2>
+              <h2 className="text-2xl font-bold mb-4 text-center">You&apos;re Awesome! 🎉</h2>
               <p className="text-center">
                 Get ready to flex your vocabulary muscles! Your daily dose of word wisdom is on its way.
               </p>
